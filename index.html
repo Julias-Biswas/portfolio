@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Julias Biswas</title>
+    <link rel="icon" type="image/x-icon" href="img/Julias_Biswas.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@iconscout/unicons@4.0.8/css/line.min.css" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+</head>
+
+<body>
+    <!-- Navigation Menu -->
+    <div class="container">
+        <nav id="header">
+            <div class="nav-logo">
+                <a href="#home" class="nav-name">Juli<span>as</span></a>
+            </div>
+            <div class="nav-menu" id="myNavMenu">
+                <ul class="nav_menu_list">
+                    <li class="nav_list">
+                        <a href="#home" class="nav-link active-link">Home</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#about" class="nav-link">About</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#projects" class="nav-link">Projects</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#services" class="nav-link">Services</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#contact" class="nav-link">Contact</a>
+                        <div class="circle"></div>
+                    </li>
+                </ul>
+            </div>
+            <!-- Dark Mode -->
+            <div class="mode">
+                <div class="moon-sun" id="toggle-switch">
+                    <i class="fa fa-moon" id="moon"></i>
+                    <i class="fa fa-sun" id="sun"></i>
+                </div>
+            </div>
+            <div class="nav-menu-btn">
+                <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+            </div>
+        </nav>
+        <!-- Main -->
+        <main class="wrapper">
+            <section class="featured-box" id="home">
+                <div class="featured-text">
+                    <div class="hello">
+                        <p>Hello I'm</p>
+                    </div>
+                    <div class="featured-name">
+                        <span class="typed-text"></span>
+                    </div>
+                    <div class="text-info">
+                        <p>My name is Julias! I'm a Java Developer with 1+ year of experience</p>
+                    </div>
+                    <div class="text-btn">
+                        <a href="#hireMe" class="btn hire-btn">Hire Me</a>
+                        <a href="cv/JuliasBiswasResume.pdf" class="btn" download>Download CV<i
+                                class="uil uil-file"></i></a>
+                    </div>
+                    <div class="social_icons">
+                        <div class="icon_circle"></div>
+                        <a href="https://www.instagram.com/juliasbiswas0001/" target="_blank" class="icon"><i
+                                class="uil uil-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/julias-biswas-604953203/" target="_blank" class="icon"><i
+                                class="uil uil-linkedin-alt"></i></a>
+                        <a href="https://www.hackerrank.com/profile/juliasbiswas0001" target="_blank" class="icon"><i
+                                class="fa-brands fa-hackerrank"></i></a>
+                        <a href="https://github.com/julias-biswas" target="_blank" class="icon"><i
+                                class="uil uil-github-alt"></i></a>
+                    </div>
+                </div>
+                <div class="featured-image">
+                    <div class="image">
+                        <img src="img/Julias_Biswas.png" alt="">
+                    </div>
+                </div>
+            </section>
+            <!-- About Box -->
+            <section class="section" id="about">
+                <div class="top-header">
+                    <h1>About Me</h1>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="about-info">
+                            <figure class="about-me">
+                                <figcaption>
+                                    <img src="img/Julias_Biswas.png" alt="" class="profile" />
+                                    <h2>Java Developer</h2>
+                                    <p>Graduated with a B.Tech. in Computer Science and Engineering from Maulana Abul
+                                        Kalam Azad University of Technology. I am eager to leverage my technical skills
+                                        and dedication to technology in a forward-thinking organization, enhancing my
+                                        career while contributing effectively to organizational success. With experience
+                                        in web design, comprehensive knowledge of programming languages such as Java, C,
+                                        and JavaScript, and a strong foundation in frameworks like Spring Boot and
+                                        Hibernate, I am well-equipped to tackle complex software engineering challenges.
+                                    </p>
+
+                                    <p>My achievements include solving over 1200 Data Structures and Algorithm
+                                        problems, earning top badges on HackerRank, and obtaining certifications from
+                                        esteemed institutions. I am passionate about developing high-quality software
+                                        that meets the needs of clients and end users and am committed to using the best
+                                        programming practices and tools available.</p>
+                                </figcaption>
+                            </figure>
+                            <a href="#hireMe" class="about-me-btn">Hire Me</a>
+                        </div>
+                    </div>
+
+                    <div>
+                        <!-- Tab items -->
+                        <div class="tabs">
+                            <div class="tab-item active">
+                                Skills
+                            </div>
+                            <div class="tab-item">
+                                Experience
+                            </div>
+                            <div class="tab-item">
+                                Education
+                            </div>
+                            <div class="line"></div>
+                        </div>
+
+                        <!-- Tab content -->
+                        <div class="tab-content">
+                            <div class="tab-pane active">
+                                <div class="skill">
+                                    <div class="skill-box">
+                                        <span class="title">Java</span>
+                                        <div class="skill-bar">
+                                            <span class="skill-per java">
+                                                <span class="tooltip">80%</span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="skill-box">
+                                        <span class="title">Spring [Boot, MVC, Security]</span>
+                                        <div class="skill-bar">
+                                            <span class="skill-per spring">
+                                                <span class="tooltip">70%</span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="skill-box">
+                                        <span class="title">Hibernate</span>
+                                        <div class="skill-bar">
+                                            <span class="skill-per hibernate">
+                                                <span class="tooltip">70%</span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="skill-box">
+                                        <span class="title">DBMS [Oracle, MySQL]</span>
+                                        <div class="skill-bar">
+                                            <span class="skill-per dbms">
+                                                <span class="tooltip">80%</span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="skill-box">
+                                        <span class="title">HTML</span>
+                                        <div class="skill-bar">
+                                            <span class="skill-per html">
+                                                <span class="tooltip">75%</span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="skill-box">
+                                        <span class="title">CSS</span>
+                                        <div class="skill-bar">
+                                            <span class="skill-per css">
+                                                <span class="tooltip">70%</span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="skill-box">
+                                        <span class="title">JavaScript</span>
+                                        <div class="skill-bar">
+                                            <span class="skill-per javascript">
+                                                <span class="tooltip">50%</span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="skill-box">
+                                        <span class="title">Bootstrap</span>
+                                        <div class="skill-bar">
+                                            <span class="skill-per bootstrap">
+                                                <span class="tooltip">60%</span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane">
+                                <div class="experience">
+                                    <div class="experience-box">
+                                        <span class="title">Web Designer</span>
+                                        <a href="https://www.w3webhelp.com/" class="company-name"
+                                            target="_blank">W3WebHelp</a>
+                                        <div class="doj-loc">
+                                            <p><i class="fa-solid fa-calendar-days"></i> Jun 2023 - Oct 2023</p>
+                                            <p><i class="fa-solid fa-location-dot"></i> Kolkata, India</p>
+                                        </div>
+                                        <!-- <ul class="job-desc">
+                                            <li> Crafting the front-end code carefully to ensure a
+                                                100% faithful portrayal of the design mockups.</li>
+                                            <li>Verify the design's functionality across devices and
+                                                screen sizes with 100% effectiveness.</li>
+                                            <li>Validate website functionality across browsers
+                                                (Chrome, Firefox, Safari, Edge) for 100% consistency.</li>
+                                            <li>Tech Stacks: HTML, CSS, JS, Bootstrap</li>
+                                        </ul> -->
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane">
+                                <div class="education">
+                                    <div class="education-box">
+                                        <span class="title">B.Tech. (CSE) - 8.81 CGPA</span>
+                                        <a href="https://www.makautwb.ac.in/" class="college-name"
+                                            target="_blank">Maulana Abul Kalam Azad University of Technology</a>
+                                        <div class="start-end-loc">
+                                            <p><i class="fa-solid fa-calendar-days"></i> Jul 2018 - Jun 2022</p>
+                                            <p><i class="fa-solid fa-location-dot"></i> Kolkata, West Bengal</p>
+                                        </div>
+                                    </div>
+                                    <div class="education-box">
+                                        <span class="title">Higher Secondary - 76.8%</span>
+                                        <a href="https://schools.org.in/murshidabad/19071604402/nashipur-high-madrasah.html"
+                                            class="college-name" target="_blank"> Nashipur High Madrasah (H.S.)</a>
+                                        <div class="start-end-loc">
+                                            <p><i class="fa-solid fa-calendar-days"></i> Apr 2017 - Jun 2018</p>
+                                            <p><i class="fa-solid fa-location-dot"></i> Murshidabad, West Bengal</p>
+                                        </div>
+                                    </div>
+                                    <div class="education-box">
+                                        <span class="title"> Secondary - 64.8%</span>
+                                        <a href="https://schools.org.in/murshidabad/19070913502/lalnagar-high-school-h-s.html"
+                                            class="college-name" target="_blank"> Lalnagar High School (H.S)</a>
+                                        <div class="start-end-loc">
+                                            <p><i class="fa-solid fa-calendar-days"></i> Feb 2015 - May 2016</p>
+                                            <p><i class="fa-solid fa-location-dot"></i> Murshidabad, West Bengal</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Portfolio Box -->
+            <section class="section" id="projects">
+                <div class="top-header">
+                    <h1>Projects</h1>
+                </div>
+                <div class="portfolio-container">
+                    <div class="portfolio-box">
+                        <img src="img/crm.png" alt="">
+                        <div class="layer">
+                            <h3>CRM Application</h3>
+                            <p>CRM systems nurture customer relationships, optimize processes, and boost profitability,
+                                ensuring a 100% focus on customer and prospect interactions.</p>
+                            <a href="https://github.com/Julias-Biswas/CRM-Application" target="_blank"><i
+                                    class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="portfolio-box">
+                        <img src="img/e-book.jpg" alt="">
+                        <div class="layer">
+                            <h3>E-Book System</h3>
+                            <p>Created EBook-System, a digital platform like Amazon and Flipkart, ensuring seamless
+                                book transactions for buying new and selling old books.</p>
+                            <a href="https://github.com/Julias-Biswas/EBook-System" target="_blank"><i
+                                    class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="portfolio-box">
+                        <img src="img/job-portal.jpg" alt="">
+                        <div class="layer">
+                            <h3>Job Portal Website</h3>
+                            <p>Crafted a job portal like Naukri and Indeed, ensuring seamless job posting and tailored
+                                searches, uniting companies and job seekers effectively.</p>
+                            <a href="https://github.com/Julias-Biswas/JobPortalsWebsite" target="_blank"><i
+                                    class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-container">
+                    <div class="portfolio-box">
+                        <img src="img/billing-software.png" alt="">
+                        <div class="layer">
+                            <h3>Billing Software</h3>
+                            <p>Engineered billing and customer management software like Big Bazaar, Domino's, and
+                                McDonald's with 100% precision, including order billing, budget schemes, and email
+                                billing integration.</p>
+                            <a href="https://github.com/Julias-Biswas/Billing-Software" target="_blank"><i
+                                    class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="portfolio-box">
+                        <img src="img/tech-blog.png" alt="">
+                        <div class="layer">
+                            <h3>TechBlog Website</h3>
+                            <p>TechBlog is a web app for posting technical blogs or questions, allowing both freshers
+                                and experienced users to share insights, like Stack Overflow.</p>
+                            <a href="https://github.com/Julias-Biswas/TechBlog" target="_blank"><i
+                                    class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="portfolio-box">
+                        <img src="img/e-commerce.png" alt="">
+                        <div class="layer">
+                            <h3>E-commerce Website</h3>
+                            <p>MyCart, an e-commerce site like Amazon and Flipkart, uses Java, Servlet, JSP, Hibernate,
+                                HTML, CSS, Bootstrap, JavaScript, Tomcat, MySQL, Maven, and Eclipse.</p>
+                            <a href="https://github.com/Julias-Biswas/MyCart" target="_blank"><i
+                                    class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="https://github.com/Julias-Biswas" target="_blank" class="see-more-btn">See More</a>
+            </section>
+
+            <!-- Project Box -->
+            <section class="section" id="services">
+                <div class="top-header">
+                    <h1>Services</h1>
+                </div>
+                <div class="project-container">
+                    <div class="project-box">
+                        <i class="fa-solid fa-code"></i>
+                        <h3>Completed</h3>
+                        <label for="">7+ Finished Projects</label>
+                    </div>
+                    <div class="project-box">
+                        <i class="uil uil-users-alt"></i>
+                        <h3>Clients</h3>
+                        <label for="">10+ Happy Clients</label>
+                    </div>
+                    <div class="project-box">
+                        <i class="uil uil-award"></i>
+                        <h3>Experience</h3>
+                        <label for="">1+ Years in Java Development</label>
+                    </div>
+                </div>
+            </section>
+            <!-- Contact Box -->
+            <section class="section" id="contact">
+                <div class="top-header">
+                    <h1>Let's Work Together</h1>
+                    <span>Do you have a project in your mind, contact me here</span>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="contact-info">
+                            <h2>Find Me <i class="uil uil-corner-right-down"></i></h2>
+                            <p><i class="uil uil-envelope"></i>juliasbiswas0001@gmail.com</p>
+                            <p><i class="uil uil-phone"></i>Phone: +91-6294160823</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-control" id="hireMe">
+                            <form name="submit-to-google-sheet" class="form-control">
+                                <div class="form-inputs">
+                                    <input type="text" name="Name" id="" class="input-field" placeholder="Your Name"
+                                        required>
+                                    <input type="email" name="Email" id="" class="input-field" placeholder="Your Email"
+                                        required>
+                                </div>
+                                <div class="text-area">
+                                    <input type="text" name="Subject" id="" class="input-subject"
+                                        placeholder="Your Subject" required>
+                                    <textarea name="Message" id="" placeholder="Your Message" required></textarea>
+                                </div>
+                                <span id="msg"></span>
+                                <div class="form-button">
+                                    <button class="btn" type="submit">Send <i class="uil uil-message"></i></button>
+                                </div>
+                            </form>
+                            
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <!-- Footer -->
+        <footer>
+            <div class="middle-footer">
+                <ul class="footer-menu">
+                    <li class="footer-menu-list">
+                        <a href="#home">Home</a>
+                    </li>
+                    <li class="footer-menu-list">
+                        <a href="#about">About</a>
+                    </li>
+                    <li class="footer-menu-list">
+                        <a href="#projects">Projects</a>
+                    </li>
+                    <li class="footer-menu-list">
+                        <a href="#services">Services</a>
+                    </li>
+                    <li class="footer-menu-list">
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-social-icons social_icons">
+                <a href="https://www.instagram.com/juliasbiswas0001/" target="_blank" class="icon"><i
+                        class="uil uil-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/julias-biswas-604953203/" target="_blank" class="icon"><i
+                        class="fa-brands fa-linkedin-in icon"></i></a>
+                <a href="https://www.hackerrank.com/profile/juliasbiswas0001" target="_blank" class="icon"><i
+                        class="fa-brands fa-hackerrank"></i></a>
+                <a href="https://github.com/julias-biswas" target="_blank" class="icon"><i
+                        class="uil uil-github-alt"></i></a>
+            </div>
+            <div class="bottom-footer">
+                <p>Copyright &copy; <a href="#home" style="text-decoration: none;">Julias Biswas</a> - All rights
+                    reserved 2024
+                </p>
+            </div>
+        </footer>
+    </div>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbz074CaTwQCaXudWdcDK9iMs-Usny_Cslmoldzv0NYBdBrjxplumnIhkkNj85LcaBjOqw/exec';
+        const form = document.forms['submit-to-google-sheet'];
+        const msg = document.getElementById("msg");
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully!";
+                    setTimeout(function() {
+                        msg.innerHTML = "";
+                    }, 5000);
+                    form.reset();
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.9/scrollreveal.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

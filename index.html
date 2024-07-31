@@ -395,7 +395,7 @@
                                     <button class="btn" type="submit">Send <i class="uil uil-message"></i></button>
                                 </div>
                             </form>
-                            
+
                         </div>
                     </div>
                 </div>
@@ -450,7 +450,7 @@
             fetch(scriptURL, { method: 'POST', body: new FormData(form) })
                 .then(response => {
                     msg.innerHTML = "Message sent successfully!";
-                    setTimeout(function() {
+                    setTimeout(function () {
                         msg.innerHTML = "";
                     }, 5000);
                     form.reset();

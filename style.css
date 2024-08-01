@@ -434,10 +434,11 @@ i {
 
 .top-header {
     text-align: center;
-    margin-bottom: 5em;
+    margin-bottom: 2em;
 }
 
 .top-header h1 {
+    font-size: 36px;
     font-weight: 600;
     color: var(--text-color);
     margin-bottom: 10px;
@@ -691,8 +692,10 @@ i {
 }
 
 .project-box label {
-    font-size: 15px;
+    font-size: 14px;
     color: var(--text-color);
+    text-align: center;
+    padding-inline: 18px;
 }
 
 .project-box::after,
@@ -1079,6 +1082,10 @@ footer {
 
 /* Media Query = 540px */
 @media only screen and (max-width: 540px) {
+    .top-header {
+        margin-bottom: 4em;
+    }
+
     .about-me .profile {
         left: 30%;
     }

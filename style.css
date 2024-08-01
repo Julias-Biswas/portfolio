@@ -592,6 +592,11 @@ i {
     width: 60%;
 }
 
+.skill-per.git-github {
+    animation-delay: 0.1s;
+    width: 70%;
+}
+
 @keyframes progress {
     0% {
         width: 0;

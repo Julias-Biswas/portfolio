@@ -648,11 +648,11 @@ i {
     font-size: 17px;
 }
 
-.job-desc {
+/* .job-desc {
     color: var(--color-white);
     padding-top: 6px;
     padding-left: 18px;
-}
+} */
 
 /* Projects Box */
 .project-container,

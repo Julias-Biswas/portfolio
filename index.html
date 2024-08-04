@@ -400,15 +400,15 @@
                             <form name="submit-to-google-sheet" class="form-control">
                                 <div class="form-inputs">
                                     <input type="text" name="Name" id="Name" class="input-field" placeholder="Your Name"
-                                        required>
+                                        autocomplete="given-name" required>
                                     <input type="email" name="Email" id="Email" class="input-field"
-                                        placeholder="Your Email" required>
+                                        placeholder="Your Email" autocomplete="given-email" required>
                                 </div>
                                 <div class="text-area">
                                     <input type="text" name="Subject" id="Subject" class="input-subject"
-                                        placeholder="Your Subject" required>
+                                        placeholder="Your Subject" autocomplete="given-subject" required>
                                     <textarea name="Message" id="Message" placeholder="Your Message"
-                                        required></textarea>
+                                        autocomplete="given-message" required></textarea>
                                 </div>
                                 <span id="msg"></span>
                                 <div class="form-button">

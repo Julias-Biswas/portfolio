@@ -14,7 +14,7 @@ const body = document.querySelector("body"),
 
 toggleSwitch.addEventListener("click", () => {
     body.classList.toggle("dark");
-    document.getElementsByClassName("input-field").style.color = "white";
+    document.getElementsByClassName("input-field").style.color = "#fff";
 });
 
 /* Typing Effect */

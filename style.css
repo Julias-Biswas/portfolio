@@ -438,6 +438,20 @@ i {
 }
 
 /* Tab */
+.tab-info {
+    width: 100%;
+    /* position: relative; */
+    /* display: flex; */
+    /* align-items: center; */
+    /* flex-direction: column; */
+    /* padding-block: 45px 45px; */
+    /* padding-inline: 35px; */
+    /* border: 2px solid #fff; */
+    /* background: transparent; */
+    /* box-shadow: 1px 8px 10px 2px var(--first-shadow); */
+    /* border-radius: 20px; */
+}
+
 .tabs {
     display: flex;
     position: relative;
@@ -1087,7 +1101,7 @@ footer {
 
     .skill {
         position: relative;
-        max-width: 450px;
+        max-width: 380px;
     }
 }
 
@@ -1181,6 +1195,6 @@ footer {
 
     .skill {
         position: relative;
-        max-width: 120px;
+        max-width: 145px;
     }
 }

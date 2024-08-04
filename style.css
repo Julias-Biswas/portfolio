@@ -345,73 +345,6 @@ i {
     }
 }
 
-/* Tab */
-.tabs {
-    display: flex;
-    position: relative;
-}
-
-.tabs .line {
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 0;
-    height: 6px;
-    border-radius: 15px;
-    background-color: #8749f2;
-    transition: all 0.2s ease;
-}
-
-.tab-item {
-    min-width: 180px;
-    padding: 16px 20px 11px 20px;
-    font-size: 20px;
-    text-align: center;
-    color: #8749f2;
-    background: transparent;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-    border-bottom: 5px solid transparent;
-    opacity: 0.6;
-    cursor: pointer;
-    transition: all 0.5s ease;
-}
-
-.tab-icon {
-    font-size: 24px;
-    width: 32px;
-    position: relative;
-    top: 2px;
-}
-
-.tab-item:hover {
-    opacity: 1;
-    background-color: rgba(69, 155, 208, 0.1);
-    border-color: rgba(79, 178, 228, 0.1);
-}
-
-.tab-item.active {
-    opacity: 1;
-}
-
-.tab-content {
-    padding: 28px 0;
-}
-
-.tab-pane {
-    color: #333;
-    display: none;
-}
-
-.tab-pane.active {
-    display: block;
-}
-
-.tab-pane h2 {
-    font-size: 24px;
-    margin-bottom: 8px;
-}
-
 /* Main */
 .section {
     padding-block: 2em;
@@ -502,6 +435,66 @@ i {
     margin-top: 4px;
     font-weight: 500;
     transition: all 0.5s ease;
+}
+
+/* Tab */
+.tabs {
+    display: flex;
+    position: relative;
+}
+
+.tabs .line {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 6px;
+    border-radius: 15px;
+    background-color: #8749f2;
+    transition: all 0.2s ease;
+}
+
+.tab-item {
+    min-width: 180px;
+    padding: 16px 20px 11px 20px;
+    font-size: 20px;
+    text-align: center;
+    color: #8749f2;
+    background: transparent;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom: 5px solid transparent;
+    opacity: 0.6;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.tab-item:hover {
+    opacity: 1;
+    background-color: rgba(69, 155, 208, 0.1);
+    border-color: rgba(79, 178, 228, 0.1);
+}
+
+.tab-item.active {
+    opacity: 1;
+}
+
+.tab-content {
+    padding: 28px 0;
+}
+
+.tab-pane {
+    color: #333;
+    display: none;
+}
+
+.tab-pane.active {
+    display: block;
+}
+
+.tab-pane h2 {
+    font-size: 24px;
+    margin-bottom: 8px;
 }
 
 /* Skill Box */
@@ -648,11 +641,11 @@ i {
     font-size: 17px;
 }
 
-/* .job-desc {
+.job-desc {
     color: var(--color-white);
     padding-top: 6px;
     padding-left: 18px;
-} */
+}
 
 /* Projects Box */
 .project-container,
@@ -1091,10 +1084,19 @@ footer {
     .top-header h1.about-header {
         margin-bottom: 50px;
     }
+
+    .skill {
+        position: relative;
+        max-width: 450px;
+    }
 }
 
 /* Media Query = 540px */
 @media only screen and (max-width: 540px) {
+    .nav-menu {
+        width: 200px;
+    }
+
     .top-header {
         margin-bottom: 4em;
     }
@@ -1164,8 +1166,8 @@ footer {
     }
 
     .tab-item {
-        min-width: 90px;
-        padding: 2px 0px 2px 0px;
+        min-width: 0px;
+        padding: 6px 4px 3px 4px;
         font-size: 16px;
     }
 
@@ -1175,5 +1177,10 @@ footer {
 
     .portfolio-box {
         width: 100%;
+    }
+
+    .skill {
+        position: relative;
+        max-width: 120px;
     }
 }

@@ -700,13 +700,15 @@ i {
 
 .project-box h3 {
     color: var(--text-color);
+    padding-bottom: 4px;
 }
 
-.project-box label {
+.project-box .service-desc {
     font-size: 14px;
     color: var(--text-color);
     text-align: center;
     padding-inline: 18px;
+    line-height: 22px;
 }
 
 .project-box::after,
@@ -728,7 +730,7 @@ i {
 
 .project-box:hover.project-box i,
 .project-box:hover.project-box>h3,
-.project-box:hover.project-box>label {
+.project-box:hover.project-box>.service-desc {
     color: #fff;
     z-index: 2;
 }
